@@ -1,7 +1,6 @@
 
----
 
-## Added Virtual Memory functionality + Designed new hardware
+# Added Virtual Memory functionality + Designed new hardware
 **Filename:** `lab5/README.md`
 
 ```markdown

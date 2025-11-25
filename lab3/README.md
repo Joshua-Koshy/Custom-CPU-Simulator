@@ -1,7 +1,7 @@
 
----
 
-## Cycle-Level Simulator  
+
+# Cycle-Level Simulator  
 **Filename:** `lab3/README.md`
 
 ```markdown

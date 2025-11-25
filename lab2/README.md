@@ -1,7 +1,7 @@
 
----
 
-## Instruction-Level Simulator  
+
+# Instruction-Level Simulator  
 **Filename:** `lab2/README.md`
 
 ```markdown

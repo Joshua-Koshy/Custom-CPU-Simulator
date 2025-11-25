@@ -1,7 +1,7 @@
 
----
 
-## Added Interrupts, Exceptions functionality + Designed new hardware
+
+# Added Interrupts, Exceptions functionality + Designed new hardware
 **Filename:** `lab4/README.md`
 
 ```markdown
