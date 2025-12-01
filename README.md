@@ -2,8 +2,6 @@
 
 This repository provides a complete, modular implementation of the LC-3b computer architecture—from source-level assembly to a fully pipelined CPU core. **This includes original hardware and microcode designed by Joshua Koshy, adding new functionality to the original microarchitecture.** Each module represents a self-contained component of the architecture and can be used independently or as part of a larger toolchain.
 
-The overall system models how real processors evolve from basic instruction interpreters to multi-stage pipelines with protection, exceptions, and virtual memory.
-
 ---
 
 ## Module Index
@@ -12,7 +10,7 @@ The overall system models how real processors evolve from basic instruction inte
 Supporting scripts, configuration, and baseline utilities used throughout the simulation suite.
 
 ### **1 — Assembler Engine**
-A full LC-3b assembler that converts symbolic assembly into machine-level object code:
+A fully coded Assembler in C that converts symbolic assembly into machine-level object code:
 - Two-pass label resolution
 - Instruction + pseudo-op encoding
 - Error detection and range checking
@@ -38,7 +36,7 @@ An extended microarchitecture simulator featuring:
 - Precise state save/restore and privilege-based protection
 - Full control-flow redirection based on fault/interrupt events
 
-### **5 — Virtual Memory & Address Translation Engine**
+### **5 — Cycle-Level Simulator with Virtual Memory & Address Translation**
 A complete virtual memory subsystem integrated into the cycle-accurate core:
 - Page-table–based virtual→physical address translation
 - Permission checking (R/W/X, privilege)
